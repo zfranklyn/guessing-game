@@ -1,0 +1,127 @@
+/* padding included in height */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    text-align:center;
+    height:100%;
+}
+
+body {
+    height:100%;
+    width:100%;
+}
+
+/*background*/
+#bg{
+    padding: 20px 0;
+    height:100%;
+    width:100%;     
+}
+
+    /*background colors*/
+    .bg-white{
+        background-color:white;
+    }
+
+    .bg-yellow{
+        background-color:#F8E71C;
+    }
+
+    .bg-orange{
+        background-color:#F5A623;
+    }
+
+    .bg-red{
+        background-color:#D0021B;
+    }
+
+    .bg-green{
+/*        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;  */
+        background-color:#7ED321;
+    }
+
+/*message*/
+.message{
+    padding-bottom: 20px;
+}
+
+
+/*guess-input*/
+.guess-input{
+}
+
+.guess-input input{
+    text-align: center;
+    font-size: 18em;
+    width:60%;
+    font-weight:900;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+/*past-guesses*/
+.past-guesses {
+    font-weight:900;
+    font-size: 1.5em;
+    margin-bottom:40px;
+}
+
+ul {
+    padding: 0px;
+}
+
+.past-guesses li {
+    list-style: none;
+    display:inline;
+    padding: 15px;
+}
+
+/*control-panel*/
+button {
+    padding: 8px 12px;
+    margin: 6px 10px;
+    background-color:transparent;
+    border:2px solid black;
+    outline: none;
+    /*font-weight:900;*/
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}
+
+.control-panel div {
+    display:inline-block;
+
+}
+
+.caption {
+    font-size:0.5em;
+    color:black;
+    display:block;
+}
+
+
+
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:40px;
+    font-size:0.5em;
+}
+
+
+

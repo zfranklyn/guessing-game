@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    
+
+  </head>
+  <body>
+    <div class="" id='bg'>
+      <div class="message">
+        <h2 id="message_board" class="">go on, take your guess.</h1>
+      </div>
+
+      <div class="guess-input" >
+        <input type="text" id="user_guess" maxlength="2"></input>
+      </div>
+
+      <div class="past-guesses">
+        <ul>
+          <li id="guess_1">●</li>
+          <li id="guess_2">●</li>
+          <li id="guess_3">●</li>
+          <li id="guess_4">●</li>
+          <li id="guess_5">●</li>
+        </ul>
+      </div>
+
+      <div class="control-panel">
+        <div>
+          <button id="reset_btn">RESET</button>
+          <span class="caption">ALT + R</span>
+        </div>
+        <div>
+          <button id="hint_btn">HINT</button>
+          <span class="caption">ALT + H</span>
+        </div>
+        <div>
+          <button id="submit_btn">SUBMIT</button>
+          <span class="caption">ENTER</span>
+        </div>
+      </div>
+
+      <footer>
+        FUN PROJECT BY FRANKLYN ZHU
+      </footer>
+
+
+    </div>
+  </body>
+  <script type="text/javascript" src="GuessingGame.js"></script>
+  <script type="text/javascript" src="interaction.js"></script>
+
+</html>
